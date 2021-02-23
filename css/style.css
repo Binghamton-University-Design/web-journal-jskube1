@@ -1,22 +1,50 @@
 /*stylesheet*/
 
 body {
-	margin: 20px;
+	margin: 0;
 	background: black;
 	color: white;
 	font-family: 'Poppins', sans-serif;
 	font-weight: 200;
 }
 
+h1, h2, h3, h4, p {
+	margin-top: 0;
+	margin-bottom: 1em;
+
+}
+
 h1, h2 {
 	font-weight: 200;
 }
+#wrapper{
+	margin: 2em auto;
+	max-width: 1200px;
+	padding:0 2em;
 
-div {
-	width: 400px;
-	height: 200px;
+}
+#main {
 	background: purple;
-	margin-bottom: 20px;
-	padding: 30px;
+	margin: 2em;
+	padding: 2em;
 	
+}
+#sidebar {
+	background: gray;
+}
+
+#content {
+	background: pink;
+}
+
+@media (max-width: 699px) {
+
+	#wrapper {
+		margin: 0em auto;
+	}
+	#main {
+	margin: 1em;
+	padding: 0em;
+	
+}
 }
