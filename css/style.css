@@ -33,6 +33,22 @@ h1, h2 {
 	background: gray;
 }
 
+#logo {
+	padding: 2em 0;
+
+}
+#logo h1 {
+	margin: 0;
+}
+
+#logo img, .item img {
+	width: 100%;
+	height: auto;
+}
+
+.item img {
+	margin-bottom: 2em;
+}
 #content {
 	background: pink;
 }
