@@ -2,7 +2,7 @@
 
 body {
 	margin: 0;
-	background: black;
+	background-image: url(https://i.pinimg.com/originals/03/da/91/03da913fa3164308355d2ea514088c01.jpg);
 	color: white;
 	font-family: 'Poppins', sans-serif;
 	font-weight: 200;
@@ -24,13 +24,13 @@ h1, h2 {
 
 }
 #main {
-	background: purple;
+	background: #95b37b;
 	margin: 2em;
 	padding: 2em;
 	
 }
 #sidebar {
-	background: gray;
+	background: #95b37b;
 }
 
 #logo {
@@ -50,7 +50,7 @@ h1, h2 {
 	margin-bottom: 2em;
 }
 #content {
-	background: pink;
+	background: #95b37b;
 }
 
 @media (max-width: 699px) {
