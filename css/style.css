@@ -2,7 +2,7 @@
 
 body {
 	margin: 0;
-	background-image: url(https://i.pinimg.com/originals/03/da/91/03da913fa3164308355d2ea514088c01.jpg);
+	background-image: url("../images/terrazzo.jpg");
 	color: white;
 	font-family: 'Poppins', sans-serif;
 	font-weight: 200;
@@ -51,6 +51,19 @@ h1, h2 {
 }
 #content {
 	background: #95b37b;
+}
+
+#nav li a{
+	color: #fff;
+	transition: all .3s ease-in-out;
+
+}
+
+#nav li a:hover {
+	color: green;
+	text-decoration: none;
+	background: white;
+
 }
 
 @media (max-width: 699px) {
