@@ -27,6 +27,7 @@ h1, h2 {
 	background: #95b37b;
 	margin: 2em;
 	padding: 2em;
+
 }
 
 #sidebar {
@@ -52,7 +53,10 @@ h1, h2 {
 
 #content {
 	background: #95b37b;
-
+	width: 100%;
+	position: relative;
+	
+	
 }
 
 #nav li a{
@@ -69,11 +73,14 @@ h1, h2 {
 
 #exquisite {
 	position: relative;
-	margin-bottom: 2em;
+	margin-bottom: 0;
+	width: 100%;
+
 }
 
 #exquisite .grid {
 	grid-gap: 0;
+
 
 }
 
