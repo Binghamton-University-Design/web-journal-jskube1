@@ -108,6 +108,8 @@ h1, h2 {
 #exquisite .grid img {
 	margin: 0;
 	padding: 0;
+	display: block;
+	
 }
 
 #projects {
