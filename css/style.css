@@ -47,6 +47,24 @@ h1, h2 {
 	height: auto;
 }
 
+#bio {
+	position: relative;
+	margin: 0;
+	padding: 0;
+	grid-gap: 0;
+
+}
+
+#bio .grid {
+	grid-gap: 2em;
+	padding: 0;
+
+}
+
+#bio .grid img {
+	width: 100%;
+	height: auto;
+}
 .item span {
 	font-weight: 800;
 }
