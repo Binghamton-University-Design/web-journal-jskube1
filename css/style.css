@@ -24,14 +24,14 @@ h1, h2 {
 }
 
 #main {
-	background: #95b37b;
+	background: #a7c493;
 	margin: 2em;
 	padding: 2em;
 
 }
 
 #sidebar {
-	background: #95b37b;
+	background: #a7c493;
 }
 
 #logo {
@@ -56,7 +56,8 @@ h1, h2 {
 }
 
 #content {
-	background: #95b37b;
+	background: #a7c493;
+	position: relative;
 	
 }
 
@@ -74,17 +75,21 @@ h1, h2 {
 
 #exquisite {
 	position: relative;
-	margin-bottom: 0;
+	margin: 0;
+	padding: 0;
+	grid-gap: 0;
 
 }
 
 #exquisite .grid {
 	grid-gap: 0;
+	padding: 0;
 
 }
 
 #exquisite .grid img {
-	margin-bottom: 0;
+	margin: 0;
+	padding: 0;
 }
 
 #projects {
